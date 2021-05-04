@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+  	<title>drag and organize!</title>
+  	<link href="style.css" rel="stylesheet" type="text/css" />
+  	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <body>
+  	<section class="title">
+  		<h1>drag and organize!</h1>
+  	</section>
+  	<!-- <div class="choicebuttons">
+  		<a class="pill-button" href="index.html">astronomical symbols </a>
+  		<a class="pill-button" href="emoji.html">emojis</a>
+  	</div> -->
+  	<div class="dropzone">
+      <div class="dropbox" data-slug="sunring">
+        <img src="sunring.png" alt="">
+      </div>
+      <div class="dropbox" data-slug="sunface">
+        <img src="sunface.png" alt="">
+      </div>
+      <div class="dropbox" data-slug="moonLeft">
+        <img src="leftmooncopy.png" alt="">
+      </div>
+      <div class="dropbox" data-slug="shooting">
+        <img src="shootingcopy.png" alt="">
+      </div>
+      <div class="dropbox" data-slug="moonAngryLeft">
+        <img src="angrymoonleft.png" alt="">
+      </div>
+      <div class="dropbox" data-slug="moonAngryRight">
+        <img src="angryrightmoon.png" alt="">
+      </div>
+      <div class="dropbox" data-slug="circleBlack">
+        <img src="blackcirclecopy.png" alt="">
+      </div>
+      <div class="dropbox" data-slug="circleEmpty">
+        <img src="emptycircle.png" alt="">
+      </div>
+  		<div class="dropbox" data-slug="sunAngry">
+  			<img src="sunangryface.png" alt="">
+  		</div>
+      <div class="dropbox" data-slug="moonRight">
+        <img src="rightmoonplainn.png" alt="">
+      </div>
+      <div class="dropbox" data-slug="moonAngryBlack">
+        <img src="angryblackmoon.png" alt="">
+      </div>
+      <div class="dropbox" data-slug="sunface">
+        <img src="sunface.png" alt="">
+      </div>
+
+  	</div>
+    <div id="movable-element" onmousedown="pickup(event)" ontouchstart="pickup(event)" onmousemove="move(event)" 
+     ontouchmove="move(event)" onmouseup="drop(event)"
+     ontouchend="drop(event)">
+  	<div class="symbols">
+  		<img class="draggable" src="sunface.png" draggable="true" alt="" data-slug="sunface">
+  		<img class="draggable" src="shootingcopy.png" draggable="true" alt="" data-slug="shooting">
+  		<img class="draggable" src="sunring.png" draggable="true" alt="" data-slug="sunring">
+  		<img class="draggable" src="leftmooncopy.png" draggable="true" alt="" data-slug="moonLeft">
+  		<img class="draggable" src="emptycircle.png" draggable="true" alt="" data-slug="circleEmpty">
+      <img class="draggable" src="sunface.png" draggable="true" alt="" data-slug="sunface">
+  		<img class="draggable" src="blackcirclecopy.png" draggable="true" alt="" data-slug="circleBlack">
+  		<img class="draggable" src="angryrightmoon.png" draggable="true" alt="" data-slug="moonAngryRight">
+  		<img class="draggable" src="angrymoonleft.png" draggable="true" alt="" data-slug="moonAngryLeft">
+  	</div>
+    
+  </div>
+    <div class="bgbuttons">
+  		<button class="white" data-bg-color=""></button>
+  		<button class="red" data-bg-color="#FE9393"></button>
+  		<button class="orange" data-bg-color="#FFC69D"></button>
+  		<button class="yellow" data-bg-color="#FFF9BE"></button>
+  		<button class="green" data-bg-color="#DFFFD0"></button>
+  		<button class="teal" data-bg-color="#C5FBFF"></button>
+  		<button class="blue" data-bg-color="#C3D8FF"></button>
+  		<button class="lilac" data-bg-color="#E9CCFF"></button>
+  	</div>
+
+
+  	<script src="script.js"></script>
+  </body>
+</html>
